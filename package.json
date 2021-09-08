@@ -1,0 +1,33 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "node ./build/app.js",
+    "start": "tsc -p",
+    "dev": "nodemon ./src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisidaniel/Node-Template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisidaniel/Node-Template/issues"
+  },
+  "homepage": "https://github.com/alisidaniel/Node-Template#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "dotenv": "^10.0.0"
+  }
+}
