@@ -1,11 +1,11 @@
 import mongoose from "mongoose";
+import config from "../config/config";
 
-const url = "mongodb+srv://user:1234567890@cluster0.ecduv.mongodb.net/test";
 const connection = mongoose
-  .connect(url, {
-    useUnifiedTopology: true,
-    useNewUrlParser: true,
-    useCreateIndex: true,
+  .connect(config.server.db, {
+    // useUnifiedTopology: true,
+    // useNewUrlParser: true,
+    // useCreateIndex: true,
   })
   .then(() => {
     console.log(`DB::connected`);
