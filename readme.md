@@ -1,9 +1,9 @@
-## Node Typescript Setup with GraphQl
+## Basic node Typescript with GraphQL
 
-### npm init
+- npm init
 
-### npm init -y
+- npm init -y
 
-# Installing Dependencies
+## Installing Dependencies
 
-### yarn add express typescript nodemon ts-node @types/express @types/node
+- yarn add express typescript nodemon ts-node @types/express @types/node
