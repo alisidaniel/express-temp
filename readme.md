@@ -1,4 +1,4 @@
-## Basic node Typescript with GraphQL
+## Node Typescript with GraphQL Example
 
 - npm init
 
