@@ -7,3 +7,6 @@
 ## Installing Dependencies
 
 - yarn add express typescript nodemon ts-node @types/express @types/node
+
+## Run
+- yarn dev
